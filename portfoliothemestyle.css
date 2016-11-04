@@ -1,0 +1,37 @@
+body {
+  padding:3%;
+  text-align:center;
+  margin:auto;
+  background-size:cover;
+  background-repeat:no-repeat;
+  line-height:1.8;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.navbar div {
+  font-size:20px;
+  padding:20px;
+}
+
+.navbar a {
+  color:black;
+  display:inline;
+  padding:8px;
+  text-decoration:none;
+  text-transform:uppercase;
+  font-family: 'Dosis', sans-serif;
+  letter-spacing: 2px;
+  padding: 8px 8px 8px 8px;
+  
+}
+
+a:hover {
+  color:gray;
+  
+}
+
