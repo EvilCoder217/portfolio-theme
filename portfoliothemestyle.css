@@ -21,16 +21,15 @@ p {
 
 .navbar {
   width: 100%;
-  /* margin-left: 850px; */
+
   display: flex;
   align-items: center;
 }
 
 .navbar div {
   font-size:20px;
-  font-color:black;
   padding:20px;
-  /* display:inline; */
+
 }
 
 .navbar a {
