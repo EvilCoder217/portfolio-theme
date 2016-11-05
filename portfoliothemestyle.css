@@ -2,36 +2,117 @@ body {
   padding:3%;
   text-align:center;
   margin:auto;
+  line-height:1.8;
+  background-color:#FBF7F6;
   background-size:cover;
   background-repeat:no-repeat;
-  line-height:1.8;
+}
+.page-header_1 {
+  flex-grow: 2;
+  text-align: left;
+}
+h1 {
+  font-size:25px;
+}
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size:15px;
 }
 
 .navbar {
   width: 100%;
+  /* margin-left: 850px; */
   display: flex;
   align-items: center;
 }
 
 .navbar div {
   font-size:20px;
+  font-color:black;
   padding:20px;
+  /* display:inline; */
 }
 
 .navbar a {
   color:black;
+  font-size:15px;
   display:inline;
   padding:8px;
   text-decoration:none;
   text-transform:uppercase;
-  font-family: 'Dosis', sans-serif;
-  letter-spacing: 2px;
   padding: 8px 8px 8px 8px;
-  
-}
 
+}
 a:hover {
   color:gray;
-  
 }
 
+.bgimg-1 img {
+  width:80%;
+  height:90%;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+h4 {
+  font-size:11px;
+  letter-spacing:1px;
+  text-transform:uppercase;
+  color:gray;
+}
+
+/* PARALLAX SCROLLING --> IMAGES */
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6 {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin:auto;
+  width: 80%;
+  height:625px;
+  max-width: 1000px;
+
+}
+
+.bgimg-1 {
+  background-image: url("https://erisdemo.files.wordpress.com/2016/10/p26.jpg");
+}
+
+.bgimg-2 {
+  background-image: url("https://images.unsplash.com/photo-1472238029224-6a565ae99e19?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=aa7f0e580f21da40f5bfa3c3843e354b");
+}
+
+.bgimg-3 {
+  background-image: url("http://hdimagesnew.com/wp-content/uploads/2015/11/Black-And-White-HD-Wallpapers-2.jpg");
+}
+
+.bgimg-4 {
+  background-image: url("http://bit.ly/2fqrzyH");
+}
+
+.bgimg-5 {
+  background-image: url("http://bit.ly/2fE7GJy");
+}
+
+.bgimg-6 {
+  background-image: url("http://bit.ly/2faeAlv");
+}
+
+/* PARALLAX SCROLLING --> BLURBS BETWEEN */
+.blurb {
+  position:relative;
+  color: #777;\
+  background-color:white;
+  padding:50px 80px;
+
+  }
+.blurb-1 {
+
+}
+.blurb-2
+.blurb-3
